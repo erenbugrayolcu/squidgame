@@ -1,0 +1,71 @@
+@font-face {
+    font-family: squidgame;
+    src:url(squidgame.ttf);
+    font-style: normal;
+    font-weight: 100;
+  }
+
+*{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+
+    .container{
+        width: 100%;
+        height: 100%;
+        background: #000;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        font-family: squidgame;
+        align-items: center;
+
+        .rows{
+            display: flex;
+            flex-direction: row;
+            .row-box{
+                font-family: squidgame;
+                color: #fff;
+                font-size: 5rem;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                background: #37a18e;
+                width: 100px;
+                height: 100px;
+                margin: 5px;
+                &:hover{
+                    color: #37a18e;
+                    background: #fff;
+                }
+            }
+        }       
+        .columns{
+            display: flex;
+            flex-direction: column;
+                .column-box{
+                    font-family: squidgame;
+                    color: #fff;
+                    font-size: 5rem;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 5px;
+                    background: #df445c;
+                    width: 100px;
+                    height: 100px;
+                    &:hover{
+                        color: #df445c;
+                        background: #fff;
+                    }
+                }
+            }
+        }   
+}
