@@ -61,6 +61,7 @@ html, body{
                     background: #df445c;
                     width: 100px;
                     height: 100px;
+                    transition: 200ms all;
                     &:hover{
                         color: #df445c;
                         background: #fff;
@@ -68,4 +69,153 @@ html, body{
                 }
             }
         }   
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 100%;
+            .rows{
+                .row-box{
+                    font-size: 3rem;
+                    width: 45px;
+                    height: 45px;
+                    transition: 200ms all;
+                    margin: 3px;
+                }
+            }       
+            .columns{
+
+                    .column-box{
+                        transition: 200ms all;
+                        font-size: 3rem;
+                        width: 50px;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                }
+            }  
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    body {
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 100%;
+            .rows{
+                .row-box{
+                    margin: 3px;
+                    font-size: 2.5rem;
+                    width: 45px;
+                    height: 45px;
+                    transition: 200ms all;
+                }
+            }       
+            .columns{
+
+                    .column-box{
+                        transition: 200ms all;
+                        font-size: 2.5rem;
+                        width: 40px;
+                        height: 40px;
+                        margin: 3px;
+                    }
+                }
+            }  
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    body {
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 100%;
+            .rows{
+                .row-box{
+                    font-size: 3rem;
+                    width: 50px;
+                    height: 50px;
+                    transition: 200ms all;
+                    margin: 3px;
+                }
+            }       
+            .columns{
+
+                    .column-box{
+                        transition: 200ms all;
+                        font-size: 3rem;
+                        width: 50px;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                }
+            }  
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    body {
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 100%;
+            .rows{
+                .row-box{
+                    font-size: 2.5rem;
+                    width: 35px;
+                    height: 35px;
+                    transition: 200ms all;
+                    margin: 3px;
+                }
+            }       
+            .columns{
+
+                    .column-box{
+                        transition: 200ms all;
+                        font-size: 3rem;
+                        width: 50px;
+                        height: 50px;
+                        margin: 3px;
+                    }
+                }
+            }  
+    }
+}
+@media only screen and (min-width: 200px) {
+    body {
+        width: 100%;
+        height: 100%;
+        .container{
+            width: 100%;
+            height: 100%;
+            .rows{
+                .row-box{
+                    font-size: 2.5rem;
+                    width: 35px;
+                    height: 35px;
+                    transition: 200ms all;
+                    margin: 3px;
+                }
+            }       
+            .columns{
+
+                    .column-box{
+                        transition: 200ms all;
+                        font-size: 2.5rem;
+                        width: 30px;
+                        height: 30px;
+                        margin: 3px;
+                    }
+                }
+            }  
+    }
 }
