@@ -115,6 +115,33 @@ html .container .columns .column-box:hover, body .container .columns .column-box
   background: #fff;
 }
 
+@media only screen and (min-width: 400px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  body .container {
+    width: 100%;
+    height: 100%;
+  }
+  body .container .rows .row-box {
+    font-size: 3rem;
+    width: 45px;
+    height: 45px;
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    margin: 3px;
+  }
+  body .container .columns .column-box {
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   body {
     width: 100%;
@@ -169,7 +196,61 @@ html .container .columns .column-box:hover, body .container .columns .column-box
   }
 }
 
+@media only screen and (max-width: 350px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  body .container {
+    width: 100%;
+    height: 100%;
+  }
+  body .container .rows .row-box {
+    margin: 3px;
+    font-size: 2.5rem;
+    width: 45px;
+    height: 45px;
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+  }
+  body .container .columns .column-box {
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    font-size: 2.5rem;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+}
+
 @media only screen and (min-width: 500px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  body .container {
+    width: 100%;
+    height: 100%;
+  }
+  body .container .rows .row-box {
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    margin: 3px;
+  }
+  body .container .columns .column-box {
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   body {
     width: 100%;
     height: 100%;
@@ -223,7 +304,7 @@ html .container .columns .column-box:hover, body .container .columns .column-box
   }
 }
 
-@media only screen and (min-width: 200px) {
+@media only screen and (max-width: 300px) {
   body {
     width: 100%;
     height: 100%;
@@ -243,10 +324,37 @@ html .container .columns .column-box:hover, body .container .columns .column-box
   body .container .columns .column-box {
     -webkit-transition: 200ms all;
     transition: 200ms all;
-    font-size: 2.5rem;
-    width: 30px;
-    height: 30px;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
     margin: 3px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  body .container {
+    width: 100%;
+    height: 100%;
+  }
+  body .container .rows .row-box {
+    font-size: 5rem;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    margin: 5px;
+  }
+  body .container .columns .column-box {
+    font-size: 5rem;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+    margin: 5px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
